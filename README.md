@@ -14,7 +14,7 @@ Neural networks in Keras using Tensorflow backend.
 
 *MNIST dataset taken from `keras.datasets`.*
 
-*[The MNIST Database]*(http://yann.lecun.com/exdb/mnist/)
+*[The MNIST Database](http://yann.lecun.com/exdb/mnist/)*
 ___
 
 ### Tested on:
