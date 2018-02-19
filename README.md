@@ -16,6 +16,12 @@ Neural networks in Keras using Tensorflow backend.
   * Deeper CNN (6 convolutional layers - 3 blocks) using Keras functional API.
   * VGG like architecture (much smaller) with Batch Normalization.
   * [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556)
+
+* [small_ResNET.py](https://github.com/kredy/Keras-Projects/blob/master/small_ResNET.py)
+
+  * A simple residual neural network with Identity blocks and Convolutional blocks.
+  * [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
+  * [Identity Mappings in Deep Residual Networks](https://arxiv.org/abs/1603.05027)
   
 *MNIST dataset taken from `keras.datasets`.*
 
