@@ -1,5 +1,9 @@
 # Keras-Projects
 Neural networks in Keras using Tensorflow backend.
+____
+
+Experiments on various popular neural network architectures with fewer layers, fewer filters, and fewer hidden units.
+
 
 * [CNN_simple.py](https://github.com/kredy/Keras-Projects/blob/master/CNN_simple.py)
 
@@ -22,6 +26,11 @@ Neural networks in Keras using Tensorflow backend.
   * A simple residual neural network with Identity blocks and Convolutional blocks.
   * [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
   * [Identity Mappings in Deep Residual Networks](https://arxiv.org/abs/1603.05027)
+  
+* [small_DenseNet.py](https://github.com/kredy/Keras-Projects/blob/master/small_DenseNet.py)
+  
+  * A ConvNet similar to DenseNet. 
+  * [Densely Connected Convolutional Networks](https://arxiv.org/abs/1608.06993)
   
 *MNIST dataset taken from `keras.datasets`.*
 
