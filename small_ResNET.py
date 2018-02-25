@@ -190,10 +190,10 @@ def main():
 	
 	K.clear_session()
 	batch_size = 128
-	epochs = 1
-	learning_rate = 0.01
+	epochs = 50
+	learning_rate = 0.0001
 	Tboard = TensorBoard(log_dir="./ResNet_graph")
-	reduce_lr = ReduceLROnPlateau(monitor='val_loss',factor=0.01,min_lr=0.0001)
+	reduce_lr = ReduceLROnPlateau(monitor='val_loss',factor=0.01,min_lr=0.00001,patience=5)
 
 	data = LoadData('data.bin','labels.bin')
 	x_train,x_dev,y_train,y_dev = data.train_dev_Set()
