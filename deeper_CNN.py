@@ -141,9 +141,9 @@ def main():
 	
 	batch_size = 128
 	epochs = 100
-	learning_rate = 0.01
+	learning_rate = 0.0001
 	Tboard = keras.callbacks.TensorBoard(log_dir="./graph")
-	reduce_lr = keras.callbacks.ReduceLROnPlateau(monitor='val_loss',factor=0.01,min_lr=0.0001)
+	reduce_lr = keras.callbacks.ReduceLROnPlateau(monitor='val_loss',factor=0.01,min_lr=0.00001)
 
 	data = LoadData('data.bin','labels.bin')
 	x_train,x_dev,y_train,y_dev = data.train_dev_Set()

@@ -32,6 +32,12 @@ Experiments on various popular neural network architectures with fewer layers, f
   * A ConvNet similar to DenseNet. 
   * [Densely Connected Convolutional Networks](https://arxiv.org/abs/1608.06993)
   
+* [small_Inception.py](https://github.com/kredy/Keras-Projects/blob/master/small_Inception.py)
+
+  * A ConvNet with 3 Inception (less number of filters) blocks.
+  * Includes Early Stopping.
+  * [Going Deeper with Convolutions](https://arxiv.org/abs/1409.4842)
+  
 *MNIST dataset taken from `keras.datasets`.*
 
 *[The MNIST Database](http://yann.lecun.com/exdb/mnist/)*
