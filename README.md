@@ -9,6 +9,10 @@ Experiments on various popular neural network architectures with fewer layers, f
 
   * Convolutional neural network using Keras functional API.
   * [Understanding Convolutional Neural Networks with A Mathematical Model](https://arxiv.org/abs/1609.04112v2)
+  
+* [bidirectional_LSTM.py](https://github.com/kredy/Keras-Projects/blob/master/bidirectional_LSTM.py)
+
+  * A Bidirectional LSTM for sentiment classification.
 
 * [LeNet-5ish.py](https://github.com/kredy/Keras-Projects/blob/master/LeNet-5ish.py)
 
@@ -38,11 +42,22 @@ Experiments on various popular neural network architectures with fewer layers, f
   * Includes Early Stopping.
   * [Going Deeper with Convolutions](https://arxiv.org/abs/1409.4842)
   
+* [LSTM_pretrained.py](https://github.com/kredy/Keras-Projects/blob/master/LSTM_pretrained.py)
+
+  * An LSTM model with pre-trained word embeddings (GloVe embeddings) for sentement classification.
+  * Data from [Sentiment Labelled Sentences Data Set](https://archive.ics.uci.edu/ml/datasets/Sentiment+Labelled+Sentences).
+  * [Long Short-Term Memory](http://axon.cs.byu.edu/~martinez/classes/778/Papers/lstm.pdf)
+
+
 *MNIST dataset taken from `keras.datasets`.*
+
+*IMDB dataset taken from `keras.datasets`.*
 
 *[The MNIST Database](http://yann.lecun.com/exdb/mnist/)*
 
 *[CIFAR-10 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)*
+
+*[GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/)*
 ___
 
 ### Tested on:
