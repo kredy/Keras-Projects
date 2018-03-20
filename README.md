@@ -48,6 +48,10 @@ Experiments on various popular neural network architectures with fewer layers, f
   * Data from [Sentiment Labelled Sentences Data Set](https://archive.ics.uci.edu/ml/datasets/Sentiment+Labelled+Sentences).
   * [Long Short-Term Memory](http://axon.cs.byu.edu/~martinez/classes/778/Papers/lstm.pdf)
 
+* [auto_encoder.py](https://github.com/kredy/Keras-Projects/blob/master/auto_encoder.py)
+
+  * A simple convolutional autoencoder using Conv2D and Conv2DTranspose layers.
+  
 
 *MNIST dataset taken from `keras.datasets`.*
 
