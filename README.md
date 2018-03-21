@@ -4,7 +4,10 @@ ____
 
 Experiments on various popular neural network architectures with fewer layers, fewer filters, and fewer hidden units.
 
+* [DNN.py](https://github.com/kredy/Keras-Projects/blob/master/DNN.py)
 
+  * Neural network of fully connected layers using Keras functional API.
+  
 * [CNN_simple.py](https://github.com/kredy/Keras-Projects/blob/master/CNN_simple.py)
 
   * Convolutional neural network using Keras functional API.
