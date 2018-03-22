@@ -51,7 +51,7 @@ Experiments on various popular neural network architectures with fewer layers, f
   * Data from [Sentiment Labelled Sentences Data Set](https://archive.ics.uci.edu/ml/datasets/Sentiment+Labelled+Sentences).
   * [Long Short-Term Memory](http://axon.cs.byu.edu/~martinez/classes/778/Papers/lstm.pdf)
 
-* [LSTM_pretrained_multi_in.py](https://github.com/kredy/Keras-Projects/blob/kredy-patch-1/LSTM_pretrained_multi_in.py)
+* [LSTM_pretrained_multi_in.py](https://github.com/kredy/Keras-Projects/blob/master/LSTM_pretrained_multi_in.py)
 
   * A multi-in single out LSTM model with pre-trained word embeddings (GloVe embeddings) for sentement classification.
 
