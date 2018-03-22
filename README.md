@@ -54,8 +54,17 @@ Experiments on various popular neural network architectures with fewer layers, f
 * [auto_encoder.py](https://github.com/kredy/Keras-Projects/blob/master/auto_encoder.py)
 
   * A simple convolutional autoencoder using Conv2D and Conv2DTranspose layers.
-  
 
+* [GAN.py](https://github.com/kredy/Keras-Projects/blob/master/GAN.py)
+
+  * Generative Adversarial Network.
+  * [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661)
+
+* [DCGAN.py](https://github.com/kredy/Keras-Projects/blob/master/DCGAN.py)
+
+  * Deep Convolutional Generative Adversarial Network.
+  * [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434)
+  
 *MNIST dataset taken from `keras.datasets`.*
 
 *IMDB dataset taken from `keras.datasets`.*
